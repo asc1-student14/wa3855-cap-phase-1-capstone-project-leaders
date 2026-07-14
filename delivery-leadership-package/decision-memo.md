@@ -96,3 +96,17 @@ This approach protects the current delivery from legal/compliance risk while pre
 
 What Would Change the Recommendation
 The recommendation would change if Marketing confirms that the request is limited to a simple navigation link with a final URL and no additional behavior. In that case, the change could likely be implemented and tested within the existing one-day schedule buffer.
+
+## Day 3 what did Copilot get right? what did it get wrong? would you ship its output as-is? what would you change?
+
+I prompted co-pilot with the following: 
+PROMPT: suggest two more testimonials matching the tone of the existing ones.
+OUTPUT: "Quick quote, clear options, and no pressure. It felt straightforward from start to finish."
+— R. Patel, Somerville
+
+"I bundled auto and renters in one call and lowered my monthly cost the same day."
+— K. Robinson, Brookline
+
+I mean...its cool what it gave me, but honestly, we cant use these as they are made up testimonials.  Im sure legal would have a thing or two to say if we put these in there.
+
+
