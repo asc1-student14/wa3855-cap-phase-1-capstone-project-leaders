@@ -24,17 +24,17 @@ jobs:
           node-version: "20"
 
       - name: Validate HTML (html-validate)
-        run: npx --yes html-validate "**/*.html" || true
+        run: npx --yes html-validate "delivery-leadership-package/**/*.html" || true
 
       - name: Smoke-check required files
         run: |
-          test -f index.html
-          test -f css/theme.css
-          test -f js/quote-calc.js
+          test -f delivery-leadership-package/index.html
+          test -f delivery-leadership-package/css/theme.css
+          test -f delivery-leadership-package/js/quote-calc.js
           echo "All required files present."
 
       - name: Lint JS syntax
-        run: node --check js/quote-calc.js
+        run: node --check delivery-leadership-package/js/quote-calc.js
 
       - name: Greeting
         run: echo "Evergreen Quote CI run by ${{ github.actor }}"
