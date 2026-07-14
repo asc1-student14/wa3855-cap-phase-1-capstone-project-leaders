@@ -37,4 +37,4 @@ jobs:
         run: node --check js/quote-calc.js
 
       - name: Greeting
-        run: echo "Evergreen Quote CI run by ${{ github.actor }}" 
+        run: echo "Evergreen Quote CI run by ${{ github.actor }}"
