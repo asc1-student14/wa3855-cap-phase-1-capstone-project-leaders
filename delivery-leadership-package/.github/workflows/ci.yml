@@ -35,8 +35,3 @@ jobs:
 
       - name: Lint JS syntax
         run: node --check js/quote-calc.js
-
-      - name: Greeting
-        run: echo "Evergreen Quote CI run by ${{ github.actor }}"
-
-    
