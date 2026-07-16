@@ -2,7 +2,7 @@
 
 ## Goal
 
-> By Thursday EOD, an assembled, themed, responsive Evergreen Quote page with a working calculator is on `main` via a reviewed PR and a green CI run — and I can demo it to a stakeholder without pre-apologizing.
+> By Thursday EOD, an assembled, themed, responsive Evergreen Quote page with a working calculator is on `main` via a reviewed PR and a green CI run.
 
 ## "Done" looks like
 
